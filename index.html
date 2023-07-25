@@ -24,6 +24,9 @@
 
                         'title': ['"EB Garamond"'],
                         'sub-title': ['Poppins'],
+                    },
+                    backgroundImage: {
+                        'banner-bg': "linear-gradient(to right bottom, rgba(24,24,24, 0.8), rgba(24,24,24, 0.8)), url('asset/banner.png')",
                     }
                 }
             }
@@ -35,8 +38,8 @@
 
 <body>
 
-    <header>
-        <nav class="font-sub-title text-color-sub">
+    <header class="px-6 lg:px-24">
+        <nav class="font-sub-title text-color-sub py-5 mb-8">
             <div class="navbar bg-base-100 p-0">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -126,7 +129,24 @@
                 </div>
             </div>
         </nav>
-        <h1 class="text-6xl font-title font-extrabold text-white">We Provide Effective Legal Solutions</h1>
+
+        <div
+            class="banner bg-banner-bg h-[calc(100vh-136px)] rounded-xl bg-no-repeat bg-cover bg-center text-center flex justify-center flex-col items-center space-y-4 px-[20%]">
+            <h1 class="text-6xl font-title font-extrabold text-white">We Provide Effective Legal Solutions</h1>
+            <p class="text-white font-sub-title font-light">There are many variations of passages of Lorem Ipsum
+                available, but the
+                majority have
+                suffered alteration
+                in some form, by injected humour.</p>
+            <div class="banner-cta">
+                <div class="join gap-5">
+                    <input class="input input-bordered rounded-xl" placeholder="Search Your Service..." />
+                    <button
+                        class="btn rounded-xl bg-color-primary border-0 text-white font-semibold font-sub-title capitalize">Search</button>
+                </div>
+            </div>
+        </div>
+
     </header>
 
 

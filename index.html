@@ -32,13 +32,20 @@
             }
         }
     </script>
+    <style>
+        .main-slider:hover~.btn-one {
+            /* Add your styles for the active button here */
+            background-color: red;
+            color: red;
+        }
+    </style>
     <title>Legal Solutions</title>
 
 </head>
 
 <body>
 
-    <header class="px-6 lg:px-24">
+    <header class="px-6 pb-12 lg:px-24">
         <nav class="font-sub-title text-color-sub py-5 mb-8">
             <div class="navbar bg-base-100 p-0">
                 <div class="navbar-start">
@@ -57,8 +64,8 @@
                                 <details>
                                     <summary>Services</summary>
                                     <ul class="p-2">
-                                        <li><a>Submenu 1</a></li>
-                                        <li><a>Submenu 2</a></li>
+                                        <li><a>Submenu</a></li>
+                                        <li><a>Submenu</a></li>
                                     </ul>
                                 </details>
                             </li>
@@ -66,8 +73,8 @@
                                 <details>
                                     <summary>Cases</summary>
                                     <ul class="p-2">
-                                        <li><a>Submenu 1</a></li>
-                                        <li><a>Submenu 2</a></li>
+                                        <li><a>Submenu</a></li>
+                                        <li><a>Submenu</a></li>
                                     </ul>
                                 </details>
                             </li>
@@ -75,8 +82,8 @@
                                 <details>
                                     <summary>Blog</summary>
                                     <ul class="p-2">
-                                        <li><a>Submenu 1</a></li>
-                                        <li><a>Submenu 2</a></li>
+                                        <li><a>Submenu</a></li>
+                                        <li><a>Submenu</a></li>
                                     </ul>
                                 </details>
                             </li>
@@ -96,8 +103,8 @@
                             <details>
                                 <summary>Services</summary>
                                 <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                    <li><a>Submenu</a></li>
+                                    <li><a>Submenu</a></li>
                                 </ul>
                             </details>
                         </li>
@@ -105,8 +112,8 @@
                             <details>
                                 <summary>Cases</summary>
                                 <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                    <li><a>Submenu</a></li>
+                                    <li><a>Submenu</a></li>
                                 </ul>
                             </details>
                         </li>
@@ -114,8 +121,8 @@
                             <details>
                                 <summary>Blog</summary>
                                 <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                    <li><a>Submenu</a></li>
+                                    <li><a>Submenu</a></li>
                                 </ul>
                             </details>
                         </li>
@@ -149,7 +156,202 @@
 
     </header>
 
+    <main>
+        <section class="px-6 py-12 lg:px-24">
+            <div class="section-intro text-center space-y-3 mb-14">
+                <h1 class="font-title text-color-main font-extrabold text-4xl">The Legal Practice Area</h1>
+                <p class="font-sub-title text-color-sub font-normal text-sm">There are many variations of passages
+                    of Lorem Ipsum available, but the majority have
+                    <br> suffered
+                    alteration in some form, by injected humour.
+                </p>
+            </div>
 
+            <div class="service-card-container grid grid-cols-3 gap-14 justify-between">
+                <!-- #F3F3F3 -->
+
+                <!-- Sevice-card-1 -->
+                <div
+                    class="service-card w-72 py-5 px-7 space-y-5 text-center shadow-xl hover:bg-gradient-to-b from-[#d42222] to-[rgba(243,243,243,0.1)] transition-all delay-1000 duration-1000 ease-in-out">
+                    <div class="image flex justify-center"> <img class="w-[25%]" src="asset/business.png" alt=""></div>
+
+                    <h1 class="font-title text-color-main font-extrabold text-2xl">Business Law</h1>
+                    <p class="font-sub-title text-color-sub font-normal text-base">There are many variations of passages
+                        of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <div class="bg-color-primary p-1 text-white inline-block rounded-full font-extrabold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </div>
+
+
+                <!-- Sevice-card-2 -->
+                <div
+                    class="service-card w-72 py-5 px-7 space-y-5 text-center shadow-xl hover:bg-gradient-to-b from-[#d42222] to-[rgba(243,243,243,0.1)] transition-all delay-1000 duration-1000 ease-in-out">
+                    <div class="image flex justify-center"> <img class="w-[25%]" src="asset/business.png" alt=""></div>
+
+                    <h1 class="font-title text-color-main font-extrabold text-2xl">Business Law</h1>
+                    <p class="font-sub-title text-color-sub font-normal text-base">There are many variations of passages
+                        of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <div class="bg-color-primary p-1 text-white inline-block rounded-full font-extrabold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Sevice-card-3 -->
+                <div
+                    class="service-card w-72 py-5 px-7 space-y-5 text-center shadow-xl hover:bg-gradient-to-b from-[#d42222] to-[rgba(243,243,243,0.1)] transition-all delay-1000 duration-1000 ease-in-out">
+                    <div class="image flex justify-center"> <img class="w-[25%]" src="asset/business.png" alt=""></div>
+
+                    <h1 class="font-title text-color-main font-extrabold text-2xl">Business Law</h1>
+                    <p class="font-sub-title text-color-sub font-normal text-base">There are many variations of passages
+                        of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <div class="bg-color-primary p-1 text-white inline-block rounded-full font-extrabold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Sevice Card 4 -->
+                <div
+                    class="service-card w-72 py-5 px-7 space-y-5 text-center shadow-xl hover:bg-gradient-to-b from-[#d42222] to-[rgba(243,243,243,0.1)] transition-all delay-1000 duration-1000 ease-in-out">
+                    <div class="image flex justify-center"> <img class="w-[25%]" src="asset/business.png" alt=""></div>
+
+                    <h1 class="font-title text-color-main font-extrabold text-2xl">Business Law</h1>
+                    <p class="font-sub-title text-color-sub font-normal text-base">There are many variations of passages
+                        of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <div class="bg-color-primary p-1 text-white inline-block rounded-full font-extrabold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Sevice Card 5 -->
+                <div
+                    class="service-card w-72 py-5 px-7 space-y-5 text-center shadow-xl hover:bg-gradient-to-b from-[#d42222] to-[rgba(243,243,243,0.1)] transition-all delay-1000 duration-1000 ease-in-out">
+                    <div class="image flex justify-center"> <img class="w-[25%]" src="asset/business.png" alt=""></div>
+
+                    <h1 class="font-title text-color-main font-extrabold text-2xl">Business Law</h1>
+                    <p class="font-sub-title text-color-sub font-normal text-base">There are many variations of passages
+                        of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <div class="bg-color-primary p-1 text-white inline-block rounded-full font-extrabold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Sevice Card 6 -->
+                <div
+                    class="service-card w-72 py-5 px-7 space-y-5 text-center shadow-xl hover:bg-gradient-to-b from-[#d42222] to-[rgba(243,243,243,0.1)] transition-all delay-1000 duration-1000 ease-in-out">
+                    <div class="image flex justify-center"> <img class="w-[25%]" src="asset/business.png" alt=""></div>
+
+                    <h1 class="font-title text-color-main font-extrabold text-2xl">Business Law</h1>
+                    <p class="font-sub-title text-color-sub font-normal text-base">There are many variations of passages
+                        of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <div class="bg-color-primary p-1 text-white inline-block rounded-full font-extrabold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What Our Clients Say Section -->
+        <section class="px-6 py-12 lg:px-24">
+            <div class="section-intro text-center space-y-3 mb-14">
+                <h1 class="font-title text-color-main font-extrabold text-4xl">The Legal Practice Area</h1>
+                <p class="font-sub-title text-color-sub font-normal text-sm">There are many variations of passages
+                    of Lorem Ipsum available, but the majority have
+                    <br> suffered
+                    alteration in some form, by injected humour.
+                </p>
+            </div>
+
+
+            <div
+                class="bg-banner-bg h-[calc(100vh-136px)] rounded-xl bg-no-repeat bg-cover bg-center text-center flex justify-center items-center relative">
+                <div class="carousel w-full ">
+
+
+                    <div id="slide1" class="carousel-item main-slider relative w-full bg-green-400">
+                        <div class="review-card px-[10%] flex flex-col justify-center items-center space-y-3">
+
+                            <img src="asset/user-1.png" class="w-[10%]" />
+                            <h2 class="text-white">Awlad Hossain</h2>
+                            <h3 class="text-white">UX Designer</h3>
+
+                            <p class="text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                                the more obscure Latin words, consectetur.</p>
+
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+                    <!-- Slider button -->
+                    <div class="absolute left-0 bottom-0 flex justify-center items-center w-full bg-red-500">
+                        <a href="#slide1" class="btn btn-one">1</a>
+                        <a href="#slide2" class="btn btn-02">2</a>
+                        <a href="#slide3" class="btn btn-03">3</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
 </body>
 
 </html>

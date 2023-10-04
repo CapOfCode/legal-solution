@@ -15,4 +15,4 @@ The Legal Solution Website is your go-to platform for legal services and solutio
 
 
 ## Knowledge
-The Legal Solution Website serves as an example of a website designed to provide legal information and assistance.
+The Legal Solution Website helped me to learn slider and overly. 
